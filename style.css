@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header p {
+    display: inline-block;
+}
+
+header p:nth-child(2) {
+    float: right;
+    margin-left: 20px;
+}
+
+header p:nth-child(3) {
+    float: right;
+}
+
+.banner {
+    background-color: #bebebe;
+    height: 300px;
+    text-align: center;
+    padding-top: 120px;
+    background-image: url(img/photo-1676948242081-17ba7600851a.avif);
+}
+
+
+.about_me{
+    margin: 40px 0;
+}
+
+.about_me-photo {
+    background-color: #bebebe;
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+.about_me-legend{
+    width: 518px;
+    height: 400px;
+    background-color: #bebebe;
+    float: right;
+    margin-left: 20px;
+}
+
+.nature h1 {
+    text-align: center;
+}
+
+.photos *{
+    border: 1px solid black;
+    border-radius: 15px ;
+}
+
+.photos{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 29% 33% 20%;
+    grid-template-rows: 1fr 3fr 1fr 1fr ;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.photos img{
+   border-radius: 15px ;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #bebebe;
+    height: 70px;
+}
+.about_me-photo img{
+    width: 300px;
+    height: 400px;
+    float: right;
+}
